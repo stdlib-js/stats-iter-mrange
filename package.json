@@ -1,0 +1,45 @@
+{
+  "name": "@stdlib/stats-iter-mrange",
+  "version": "0.0.0",
+  "description": "Create an iterator which iteratively computes a moving range.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-iter-mrange.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "maximum",
+    "max",
+    "minimum",
+    "min",
+    "range",
+    "dispersion",
+    "variance",
+    "domain",
+    "extent",
+    "moving range",
+    "sliding window",
+    "sliding",
+    "window",
+    "moving",
+    "iterator",
+    "iterable",
+    "iterate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
