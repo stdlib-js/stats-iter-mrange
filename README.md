@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.itermrange;
+})();
 })();
 </script>
 ```
@@ -129,6 +131,7 @@ v = it.next().value; // [3.0, -7.0, -5.0]
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mrange@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
@@ -151,6 +154,7 @@ while ( true ) {
     }
 }
 
+})();
 })();
 </script>
 </body>
@@ -261,13 +265,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats-iter-mmax/tree/umd
+[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats-iter-mmax/tree/umd/tree/umd
 
-[@stdlib/stats/iter/mmean]: https://github.com/stdlib-js/stats-iter-mmean/tree/umd
+[@stdlib/stats/iter/mmean]: https://github.com/stdlib-js/stats-iter-mmean/tree/umd/tree/umd
 
-[@stdlib/stats/iter/mmin]: https://github.com/stdlib-js/stats-iter-mmin/tree/umd
+[@stdlib/stats/iter/mmin]: https://github.com/stdlib-js/stats-iter-mmin/tree/umd/tree/umd
 
-[@stdlib/stats/iter/range]: https://github.com/stdlib-js/stats-iter-range/tree/umd
+[@stdlib/stats/iter/range]: https://github.com/stdlib-js/stats-iter-range/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
